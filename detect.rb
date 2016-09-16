@@ -23,4 +23,4 @@ pp (1..10).detect(method(:none_method)) { |i| i % 5 == 0 and i % 7 == 0 }  #=> "
 pp (1..10).detect(proc) { |i| i % 5 == 0 and i % 7 == 0 }  #=> "None Proc"
 pp (1..10).detect(lambda) { |i| i % 5 == 0 and i % 7 == 0 }  #=> "None Lambda"
 
-pp (1..100).detect { |i| i % 5 == 0 and i % 7 == 0 } #=> 35
+pp (1..100).find { |i| i % 5 == 0 and i % 7 == 0 } #=> 35
