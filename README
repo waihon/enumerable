@@ -1,0 +1,20 @@
+Blocks
+Exercises
+http://facebook.com/waihonpage
+
+Objective
+Blocks are a fundamental, and powerful, aspect of the Ruby language. You'll find blocks used pervasively throughout good Ruby programs. And many of the methods found in the Ruby standard library itself take blocks. To be an effective Ruby programmer you must become a master blocks builder!
+http://www.pragmaticstudio.com
+
+In this exercise, we'll use blocks as iterators to help us do three things:
+
+As our code stands now, when you play a game it iterates through all the players once and lets them take a turn. Or said another way, each player gets to play one round of action and then it's game over. We want to crank up the action by allowing multiple rounds of game play.
+
+At the end of the game, we want to partition out the strong and wimpy players.
+
+Lastly, we also want to print out a list of high scores and find out which player actually won the game!
+http://rrsoft.co
+
+Along the way we'll encounter a couple design-related issues and explore best practices for keeping the code clean and maintainable.
+
+We'll work through this incrementally, with an objective and specs for each task below. If this exercise takes you a while, it's perfectly ok! Deliberate practice is important. So, take your time and make sure you understand what's going on here.
