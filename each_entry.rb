@@ -18,3 +18,6 @@ class Foo
 end
 
 Foo.new.each_entry { |param| pp param }
+#=> 1
+#   [1, 2]
+#   nil
